@@ -1,3 +1,11 @@
+// Estado da aplicação
+let estado = {
+    musicaAtual: null,
+    tocando: false,
+    volume: 50,
+    viewMode: 'grid'
+};
+
 // Array de músicas (nosso "banco de dados" falso)
 const musicas = [
     {
@@ -5,21 +13,24 @@ const musicas = [
         artista: "Cosmic Vibes",
         capaUrl: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop",
         favorito: false,
-        playlists: []
+        playlists: [],
+        destaque: true
     },
     {
         titulo: "Ocean Dreams",
         artista: "Wave Runners",
         capaUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop",
         favorito: false,
-        playlists: []
+        playlists: [],
+        destaque: true
     },
     {
         titulo: "Cherry Blossom",
         artista: "Spring Melody",
         capaUrl: "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=400&h=400&fit=crop",
         favorito: false,
-        playlists: []
+        playlists: [],
+        destaque: true
     },
     {
         titulo: "Neon Nights",

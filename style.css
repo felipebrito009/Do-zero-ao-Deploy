@@ -145,6 +145,94 @@ header {
     color: var(--text-primary);
 }
 
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+    padding: 60px 0;
+    margin: -30px -30px 30px -30px;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+/* Top Picks Section */
+.top-picks {
+    margin: 40px 0;
+}
+
+.top-picks h2 {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+.carousel {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.featured-tracks {
+    display: flex;
+    gap: 20px;
+}
+
+.featured-track {
+    min-width: 200px;
+    background: var(--card-background);
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.featured-track:hover {
+    transform: translateY(-5px);
+    background: var(--card-hover);
+}
+
+.featured-track img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.featured-track h3 {
+    font-size: 1.1em;
+    margin: 10px 0 5px;
+}
+
+.featured-track p {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+}
+
 /* Featured Section */
 .featured-section {
     margin-top: 30px;
@@ -319,4 +407,102 @@ header {
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+}
+
+/* Notificações */
+.notificacao {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background: var(--card-background);
+    color: var(--text-primary);
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    animation: slideIn 0.3s ease-out;
+    z-index: 1000;
+}
+
+.notificacao.fade-out {
+    animation: fadeOut 0.3s ease-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Active states */
+.fa-heart.active {
+    color: var(--gradient-start);
+    text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+}
+
+.musica-card.playing {
+    border: 2px solid var(--gradient-start);
+    transform: translateY(-5px);
+}
+
+/* Hover effects */
+.featured-track:hover img,
+.musica-card:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-actions button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+
+    .featured-tracks {
+        flex-direction: column;
+    }
+
+    .featured-track {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .player {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+    }
+
+    .now-playing {
+        margin-bottom: 10px;
+    }
+
+    .volume {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
