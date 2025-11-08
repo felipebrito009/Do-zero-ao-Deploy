@@ -1,44 +1,72 @@
 // Array de músicas (nosso "banco de dados" falso)
 const musicas = [
     {
-        titulo: "Lost in Paradise",
-        artista: "Aurora Dreams",
-        capaUrl: "https://source.unsplash.com/random/400x400?sunset",
+        titulo: "Stargazing",
+        artista: "Cosmic Vibes",
+        capaUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba",
         favorito: false,
         playlists: []
     },
     {
-        titulo: "Mountain Echo",
-        artista: "Nature Sounds",
-        capaUrl: "https://source.unsplash.com/random/400x400?mountain",
+        titulo: "Ocean Dreams",
+        artista: "Wave Runners",
+        capaUrl: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0",
         favorito: false,
         playlists: []
     },
     {
-        titulo: "Ocean Breeze",
-        artista: "Waves & Wind",
-        capaUrl: "https://source.unsplash.com/random/400x400?ocean",
+        titulo: "Cherry Blossom",
+        artista: "Spring Melody",
+        capaUrl: "https://images.unsplash.com/photo-1522383225653-ed111181a951",
         favorito: false,
         playlists: []
     },
     {
-        titulo: "Forest Whispers",
-        artista: "Green Harmony",
-        capaUrl: "https://source.unsplash.com/random/400x400?forest",
+        titulo: "Neon Nights",
+        artista: "City Lights",
+        capaUrl: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b",
+        favorito: false,
+        playlists: []
+    },
+    {
+        titulo: "Autumn Leaves",
+        artista: "Forest Echo",
+        capaUrl: "https://images.unsplash.com/photo-1501261379837-c3b516c6b3bb",
+        favorito: false,
+        playlists: []
+    },
+    {
+        titulo: "Mountain Peak",
+        artista: "Alpine Sound",
+        capaUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+        favorito: false,
+        playlists: []
+    },
+    {
+        titulo: "Desert Sunset",
+        artista: "Red Horizon",
+        capaUrl: "https://images.unsplash.com/photo-1509316785289-025f5b846b35",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Northern Lights",
-        artista: "Arctic Dreams",
-        capaUrl: "https://source.unsplash.com/random/400x400?aurora",
+        artista: "Aurora Beats",
+        capaUrl: "https://images.unsplash.com/photo-1483347756197-71ef80e95f73",
         favorito: false,
         playlists: []
     },
     {
-        titulo: "Desert Wind",
-        artista: "Sand & Stars",
-        capaUrl: "https://source.unsplash.com/random/400x400?desert",
+        titulo: "Tropical Paradise",
+        artista: "Island Groove",
+        capaUrl: "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a",
+        favorito: false,
+        playlists: []
+    },
+    {
+        titulo: "Rainy Days",
+        artista: "Chill Mood",
+        capaUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0",
         favorito: false,
         playlists: []
     }
