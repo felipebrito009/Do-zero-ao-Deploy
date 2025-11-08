@@ -17,6 +17,24 @@ body {
 header {
     text-align: center;
     margin-bottom: 40px;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    background: linear-gradient(45deg, #1DB954, #1ED760);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+header .subtitle {
+    color: #b3b3b3;
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: 300;
 }
 
 /* Estilo do card de música */
