@@ -1,0 +1,62 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo do header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Estilo do card de música */
+.musica-card {
+    /* Flexbox para organizar os elementos */
+    display: flex;
+    align-items: center;
+    background-color: #282828;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover no card */
+.musica-card:hover {
+    background-color: #383838;
+    cursor: pointer;
+}
+
+/* Estilo da imagem da capa */
+.musica-card img {
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+/* Estilo das informações da música */
+.musica-info {
+    flex-grow: 1;
+}
+
+.musica-info h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.musica-info p {
+    margin: 0;
+    color: #b3b3b3;
+    font-size: 14px;
+}
