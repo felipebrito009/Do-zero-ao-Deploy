@@ -82,11 +82,11 @@ function renderizarMusicas() {
         card.className = 'musica-card';
         
         card.innerHTML = `
-            <img src="${musica.capaUrl}" alt="Capa do álbum ${musica.titulo}">
+            <img src="${musica.capaUrl}" alt="${musica.titulo}">
             <div class="musica-info">
                 <h3>${musica.titulo}</h3>
                 <p>${musica.artista}</p>
-                <div class="card-actions">
+                <div class="card-actions">`
                     <button onclick="toggleFavorito(${index})" class="favorite-btn">
                         <i class="fas fa-heart ${musica.favorito ? 'active' : ''}"></i>
                     </button>
@@ -127,7 +127,7 @@ function playMusica(index) {
     const playBtn = document.querySelector('.play-btn i');
     
     // Atualiza informações do player
-    nowPlaying.querySelector('img').src = musica.capaUrl;
+    nowPlaying.querySelector('img').src = musica.capaUrl + '?w=50&h=50&fit=crop';
     trackInfo.querySelector('h4').textContent = musica.titulo;
     trackInfo.querySelector('p').textContent = musica.artista;
     
