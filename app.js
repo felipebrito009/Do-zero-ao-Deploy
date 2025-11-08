@@ -3,70 +3,70 @@ const musicas = [
     {
         titulo: "Stargazing",
         artista: "Cosmic Vibes",
-        capaUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+        capaUrl: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Ocean Dreams",
         artista: "Wave Runners",
-        capaUrl: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0",
+        capaUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Cherry Blossom",
         artista: "Spring Melody",
-        capaUrl: "https://images.unsplash.com/photo-1522383225653-ed111181a951",
+        capaUrl: "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Neon Nights",
         artista: "City Lights",
-        capaUrl: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b",
+        capaUrl: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Autumn Leaves",
         artista: "Forest Echo",
-        capaUrl: "https://images.unsplash.com/photo-1501261379837-c3b516c6b3bb",
+        capaUrl: "https://images.unsplash.com/photo-1507371341162-763b5e419408?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Mountain Peak",
         artista: "Alpine Sound",
-        capaUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+        capaUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Desert Sunset",
         artista: "Red Horizon",
-        capaUrl: "https://images.unsplash.com/photo-1509316785289-025f5b846b35",
+        capaUrl: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Northern Lights",
         artista: "Aurora Beats",
-        capaUrl: "https://images.unsplash.com/photo-1483347756197-71ef80e95f73",
+        capaUrl: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Tropical Paradise",
         artista: "Island Groove",
-        capaUrl: "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a",
+        capaUrl: "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     },
     {
         titulo: "Rainy Days",
         artista: "Chill Mood",
-        capaUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0",
+        capaUrl: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?w=400&h=400&fit=crop",
         favorito: false,
         playlists: []
     }
